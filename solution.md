@@ -49,11 +49,15 @@ Documentation for how to Dockerize a Node.js web app can be found at site below
 
 ##### Future updates 
 
-1. Create Unit tests - Ticket TP-05
+1. Create Unit and integration tests - Ticket TP-05
 
 2. Update CSS and create a new file style.css - Ticket TP-06 
 
+Note will need to update index.js file as well 
+
 3. Update JS to add more fuctionality and create new file scripts.js - Ticket TP-07
+
+Note will need to update index.js file as well
 
 ## QUESTIONS 
 
