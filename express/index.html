@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title> FEARLESS TRIAL PROJECT </title>
+	</head>
+	<body>
+		<div style="color:purple;text-align:center;" id = "visits">
+		<h1> FEARLESS TRIAL PROJECT </h1>
+		<br>
+		<br>
+		<button style="background-color:purple;color:white;" type="button" onclick="clicked()"><b>HIT ME</b></button>
+		</div>
+		
+		<script>
+			function clicked() {
+				var xhr = new XMLHttpRequest();
+				xhr.open("GET", "https://api.countapi.xyz/hit/1ccb732e-b55a-4404-ad3f-0f99c02fe44e");
+				xhr.responseType = "json";
+				xhr.onload = function() {
+					alert('You are the' + ' ' + this.response.value +' ' +  'person to visit this site Thanks for viewing :)');
+			}
+				xhr.send();
+			
+		}
+		</script>
+	</body>
+</html>
