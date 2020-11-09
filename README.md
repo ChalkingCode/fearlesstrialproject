@@ -43,3 +43,40 @@
 
 3. Be prepared to spend 15 to 30 minutes discussing your approach and implementation with another Software Engineer. 
 
+##### How to use 
+
+1. mkdir fearless
+
+2. cd fearless
+
+3. clone the repository 
+
+	git clone https://github.com/ChalkingCode/fearlesstrialproject.git
+
+4. Run commands Note: the port will be 3000 unless configured see Port Solution How to. 
+
+	npm start or you can run node index.js 
+
+Note see [Introduction to npm] (https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
+
+##### Port Solution How to 
+
+1. Port const is 3000, so if you want to run on const only run ex below 
+
+	npm start or you can run node index.js
+
+2. To configure the port the server is listening to run Port=ANYPORT npm start or node index.js 
+
+ex. PORT=3005 npm start will open on http://localhost:3005. example below 
+
+	PORT=3005 npm start or you can run PORT=3005 node index.js 
+
+##### DockerImage 
+
+Documentation on a dockerized Node.js web app can be found at site below
+
+[https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/] (https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/)
+
+### Questions
+
+###### Questions? If you have a question or would like to add feedback please contact me at skylarbarrowman@gmail.com. :) 
