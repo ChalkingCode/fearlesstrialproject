@@ -2,7 +2,9 @@
 	<head>
 		<script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<title> FEARLESS TRIAL PROJECT </title>
+
 	</head>
+	<!--- Button below calls function clicked which hits the API -->
 	<body>
 		<div style="color:purple;text-align:center;" id = "visits">
 		<h1> FEARLESS TRIAL PROJECT </h1>
@@ -10,7 +12,7 @@
 		<br>
 		<button style="background-color:purple;color:white;" type="button" onclick="clicked()"><b>HIT ME</b></button>
 		</div>
-		
+		<!-- Function clicked calls the API documentation can be found at https://countapi.xyz -->	
 		<script>
 			function clicked() {
 				var xhr = new XMLHttpRequest();
