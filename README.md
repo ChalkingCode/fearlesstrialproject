@@ -5,12 +5,8 @@
 * [Assignment](#assignment)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [DockerImage Setup](#dockerImage-setup]
-
-
-# Project Purple Cow Definition
-
- 
+* [DockerImage Setup](#dockerimage-setup)
+* [Questions](#questions)
 
 ## Must Haves 
 
@@ -42,13 +38,13 @@
 
 1. Build a proof of concept according to the requirements above and check it into a public Git repository (e.g Github) and link that repository in response.
 
-	1. Git history is important, but only for the main branch 
+	* Git history is important, but only for the main branch 
 
 2. In a solution.md in the root of the repository:
 
-	1. List and future updates, changes, or outstanding code you would like to add or would reccommend be added
+	* List and future updates, changes, or outstanding code you would like to add or would reccommend be added
 
-	2. Document any assumptions, changes, or details of the implementation that materially impact the addition of future features. 
+	* Document any assumptions, changes, or details of the implementation that materially impact the addition of future features. 
 
 3. Be prepared to spend 15 to 30 minutes discussing your approach and implementation with another Software Engineer. 
 
@@ -59,35 +55,32 @@ Project is created with:
 
 ## Setup 
 
-1. mkdir fearless
+	$ mkdir fearless
+	$ cd fearless
 
-2. cd fearless
+clone the repository 
 
-3. clone the repository 
+	$ git clone https://github.com/ChalkingCode/fearlesstrialproject.git
 
-	git clone https://github.com/ChalkingCode/fearlesstrialproject.git
+	$ cd fearlesstrialproject
 
-4. cd fearlesstrialproject
+install dependencies and run   
 
-5. npm install  
+	$ npm install
+	$ npm start 
+or 
 
-6. Run commands Note: the port will be 3000 unless configured see Port Solution How to. 
+	$ run node index.js 
 
-	npm start or you can run node index.js 
-
-Note see [Introduction to npm] (https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
+Note see [Introduction to npm](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
 
 ##### Port Solution How to 
 
-1. Port const is 3000, so if you want to run on const only run ex below 
-
-	npm start or you can run node index.js
-
-2. To configure the port the server is listening to run Port=ANYPORT npm start or node index.js 
+To configure the port the server is listening to run Port=ANYPORT npm start or node index.js 
 
 ex. PORT=3005 npm start will open on http://localhost:3005. example below 
 
-	PORT=3005 npm start or you can run PORT=3005 node index.js 
+	$ PORT=3005 npm start  
 
 ## DockerImage Setup 
 
@@ -108,6 +101,6 @@ Documentation on a dockerized Node.js web app can be found at site below
 
 [https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/] (https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/)
 
-### Questions
+## Questions
 
 ###### Questions? If you have a question or would like to add feedback please contact me at skylarbarrowman@gmail.com. :) 
