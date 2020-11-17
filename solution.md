@@ -20,7 +20,9 @@ API used to manage counting can be found at [https://countapi.xyz] (https://coun
 
 4. cd fearlesstrialproject
 
-5. Run commands note the port will be 3000 unless configured see Port Solution How to.
+5. npm install
+
+6. Run commands note the port will be 3000 unless configured see Port Solution How to.
 
 	npm start or you can run node index,js 
 
