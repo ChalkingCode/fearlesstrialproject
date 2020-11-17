@@ -1,11 +1,11 @@
 # Fearless Trial Project (Software Engineer)
 
 ## Table of contents
-* [Must Haves] (#Must-Haves)
-* [Assignment] (#Assignment)
-* [Technologies] (#Technologies)
-* [Setup] (#Setup)
-* [DockerImage Setup] (#DockerImage-Setup]
+* [Must Haves](#must-haves)
+* [Assignment](#assignment)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [DockerImage Setup](#dockerImage-setup]
 
 
 # Project Purple Cow Definition
