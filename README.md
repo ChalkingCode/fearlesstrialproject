@@ -1,9 +1,18 @@
-# Fearless Trial Project 
-## Software Engineer
+# Fearless Trial Project (Software Engineer)
 
-### Project Purple Cow Definition 
+## Table of contents
+* [Must Haves] (#Must-Haves)
+* [Assignment] (#Assignment)
+* [Technologies] (#Technologies)
+* [Setup] (#Setup)
+* [DockerImage Setup] (#DockerImage-Setup]
 
-##### Must Haves 
+
+# Project Purple Cow Definition
+
+ 
+
+## Must Haves 
 
 1. Web application interface that uses Javascript and HTML and that is served on port 3000. 
 
@@ -29,7 +38,7 @@
 
 1. The customer has not yet selected particular tchnologies, so yo are free to use front-end frameworks and/or starter projects as appropriate
 
-### Assignment 
+## Assignment 
 
 1. Build a proof of concept according to the requirements above and check it into a public Git repository (e.g Github) and link that repository in response.
 
@@ -43,7 +52,12 @@
 
 3. Be prepared to spend 15 to 30 minutes discussing your approach and implementation with another Software Engineer. 
 
-##### How to use 
+## Technologies 
+Project is created with:
+* Node.js + Express
+* Docker 
+
+## Setup 
 
 1. mkdir fearless
 
@@ -75,7 +89,20 @@ ex. PORT=3005 npm start will open on http://localhost:3005. example below
 
 	PORT=3005 npm start or you can run PORT=3005 node index.js 
 
-##### DockerImage 
+## DockerImage Setup 
+
+##### Building your image 
+
+	$ docker build -t <your username>/node-web-app .
+
+##### Run the image 
+
+	$ docker run -p 3000:3000 -d <your username>/node-web-app
+
+##### Test 
+
+	$ docker ps 
+	$ curl -i localhost:3000
 
 Documentation on a dockerized Node.js web app can be found at site below
 
