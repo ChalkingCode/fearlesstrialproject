@@ -1,10 +1,13 @@
 const http = require('http');
 const express = require('express');
 const path = require('path'); 
-
+const countapi = require('countapi-js');
+const fetch = require('node-fetch');
 const app = express();
 app.use(express.json());
 app.use(express.static("express"));
+app.use(express.static(__dirname + '/express'));
+
 
 //defaul url for site 
 app.use('/', function(req,res){

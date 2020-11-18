@@ -1,28 +1,39 @@
 <html>
 	<head>
 		<title> FEARLESS TRIAL PROJECT </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--- stylesheet can be found express/css/style.css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 	</head>
-	<!--- Button below calls function clicked which hits the API -->
+	<!--- Button below calls function clicked which hits the API using xhr and creates an alert on page -->
 	<body>
-		<div style="color:purple;text-align:center;">
-		<h1> FEARLESS TRIAL PROJECT </h1>
-		<br>
-		<br>
-		<button style="background-color:purple;color:white;" type="button" onclick="clicked()"><b>HIT ME</b></button>
-		</div>
-		<!-- Function clicked calls the API documentation can be found at https://countapi.xyz -->	
-		<script>
-			function clicked() {
-				var xhr = new XMLHttpRequest();
-				xhr.open("GET", "https://api.countapi.xyz/hit/1ccb732e-b55a-4404-ad3f-0f99c02fe44e");
-				xhr.responseType = "json";
-				xhr.onload = function() {
-					alert('You are the' + ' ' + this.response.value +' ' +  'person to visit this site Thanks for viewing :)');
-			}
-				xhr.send();
-			
-		}
-		</script>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="https://github.com/ChalkingCode/fearlesstrialproject" target="_blank" >README</a>
+            <a href="https://countapi.xyz/" target="_blank" >API DOC</a>
+        </div>
+        <br>
+        <br>
+        <br>
+		<div class="card">
+		<h1> FEARLESS </h1>
+            <h2> Purple Cow Project </h2>
+		 <p>When you hit this button it will cause a Alert to appear. Check it out. </p>
+		<button  type="button" id="clicked"><b>HIT ME</b></button>
+            <br>
+            <br>
+            <p> Click this button hat utilizes node-fetch </p>
+            <button type="button" id="visits"><b>HIT ME</b></button>
+            <h3 id="demo"></h3>
+        </div>
 	</body>
+    <!--- JS code can be found at express/js/scripts.js -->
+    <script src="js/scripts.js"></script>
+    <footer>
+    <div class="footer">
+       <p>Created by ChalkingCode @Skylar Barrowman </p>
+    </div>
+    </footer>
 </html>
