@@ -98,9 +98,6 @@ ex. PORT=3005 npm start will open on http://localhost:3005. example below
 	$ docker ps 
 	$ curl -i localhost:3000
 
-Documentation on a dockerized Node.js web app can be found at site below
-
-[https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/](https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/)
 
 ## Heroku App
 
